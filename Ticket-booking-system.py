@@ -11,7 +11,6 @@ def ticket_booking_system(seats, requests):
         else:
             print("Waiting List")
 
-# Main Program
 if __name__ == "__main__":
     seats = 3
     requests = [1, 1, 1, 1]
