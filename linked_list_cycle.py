@@ -1,4 +1,3 @@
-
 class Solution(object):
     def hasCycle(self, head):
         t = r = head
