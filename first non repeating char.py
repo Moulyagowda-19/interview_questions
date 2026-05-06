@@ -1,4 +1,4 @@
-def counting(a):    #aabc
+def counting(a):    #aaabcc
     r={}
     for ch in a:                    
         if ch in r:                 
