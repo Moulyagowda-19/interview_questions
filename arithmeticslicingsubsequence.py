@@ -8,6 +8,5 @@ def numberOfArithmeticSlices(nums):
             diff = nums[i] - nums[j]                       
             count = dp[j].get(diff, 0)
             total += count
-            dp[i][diff] =dp[i].get(diff, 0) + count + 1
-    
+            dp[i][diff] =dp[i].get(diff, 0) + count + 1    
     return total
