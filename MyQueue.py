@@ -17,3 +17,8 @@ class MyQueue :
             print('no Queue to display')
     def size(self):
         return len(self.Queue)
+
+#q = MyQueue()
+#q.enqueue(70)
+#q.enqueue(60)
+#q.enqueue(50)
